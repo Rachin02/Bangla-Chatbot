@@ -1,5 +1,5 @@
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 import os
 import streamlit as st
@@ -10,9 +10,12 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
 # Langsmith tracking
-os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGSMITH_API_KEY")
-os.environ["LANGSMITH_PROJECT"] = "Bangla Chatbot"
-os.environ["LANGSMITH_TRACING"] = "true"
+# os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGSMITH_API_KEY")  #use these for local use 
+# os.environ["LANGSMITH_PROJECT"] = "Bangla Chatbot"
+# os.environ["LANGSMITH_TRACING"] = "true"
+
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]           #use this for streamlit cloude use
+os.environ["LANGSMITH_API_KEY"] = st.secrets["LANGSMITH_API_KEY"]
 
 # store history
 # persistent store
