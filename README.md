@@ -2,7 +2,7 @@
 
 > A conversational AI chatbot that always replies in **Bengali (Bangla)** — no matter if you type in English, Banglish, or Bangla.
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://your-live-link-here.streamlit.app)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-blue?style=for-the-badge)](https://bangla--chatbot.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-yellow?style=flat-square&logo=python)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=flat-square&logo=streamlit)](https://streamlit.io)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?style=flat-square&logo=openai)](https://openai.com)
@@ -45,7 +45,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/bangla-chatbot.git
+git clone [https://github.com/your-username/bangla-chatbot.git](https://github.com/Rachin02/Bangla-Chatbot)
 cd bangla-chatbot
 ```
 
