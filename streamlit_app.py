@@ -4,13 +4,11 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
-
+import os
 from dotenv import load_dotenv
 load_dotenv()
 
-
-
-
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"] # for streamlit cloud deploy and work if you are running in local delete this line
 
 
 
