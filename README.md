@@ -109,8 +109,7 @@ streamlit run app.py
 ---
 
 ## 📸 Screenshot
-
-> *(Add a screenshot of your running app here)*
+   ![App Screenshot](assets/img.png)
 
 ---
 
